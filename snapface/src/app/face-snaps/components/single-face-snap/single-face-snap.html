@@ -1,0 +1,19 @@
+<div class="face-snap-card" *ngIf="faceSnap$ | async as faceSnap" [ngClass]="{ snapped : userHasSnapped}"> <!-- snapped : notre class dans CSS et userHasSnapped : notre propriété dans TS -->
+    <h2>{{ faceSnap.title | uppercase }}</h2>
+    <a routerLink="/facesnaps">Back</a>
+    @if (faceSnap.location){ <!-- @if est un controle flow comme @for-->
+        <p>Localisation : {{faceSnap.location}}</p>
+    }@else{
+        <p>Localisation non spécifiée</p>
+    }
+    <img [src]="faceSnap.imageUrl" [alt]="faceSnap.title" [title]="faceSnap.title" />
+    <p>{{ faceSnap.description | titlecase }} </p>
+    <p>Face snap créée le {{ faceSnap.createdAt | date : 'd MMMM yyyy, à HH:mm'}} </p> <!-- 'mediemTime' ou'short' ou longDate' ou 'longTime' ou 'd MMMM yyyy, HH:mm' ou 'dd/MM/yy'-->
+    <!-- <h3>Prix {{ 350000.995 |  number}}</h3>  pour arrondir : number: '1.0-0' : 1 pour le nombre avant la virgule, 0-0 signifie min-max après la virgule-->
+    <h3>Prix  {{ 350000.995 |  currency : 'EUR'}}</h3>
+    <p>{{ 0.3367 | percent : '1.4-4' }}</p> <!-- pour transformer des nombres entre 0 et 1 en pourcentage (ex: 0.6 = 60%)-->
+    <p>
+        <button (click)="onSnap(faceSnap.id)"> {{ snapButtonText }} {{ stateThumb }}</button>
+        <span [ngStyle]="{ color : 'rgb(0, ' + faceSnap.snaps + ',0)'}">{{ faceSnap.snaps }}</span>
+    </p>
+</div>

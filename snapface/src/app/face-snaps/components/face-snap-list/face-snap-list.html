@@ -1,0 +1,4 @@
+ <!--tracker par <title>, si une modification d'un faceSnap, alors seul ce faceSnap sera recharger et non tous les faceSnap -->
+ <!-- faceSnap : Attribut personnalisé crée dans face-snap.ts avec le décorateur @Input-->
+
+<app-face-snap *ngFor="let faceSnap of faceSnaps$ | async" [faceSnap]="faceSnap"></app-face-snap>

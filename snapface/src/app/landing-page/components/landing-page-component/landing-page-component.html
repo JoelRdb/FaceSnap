@@ -1,0 +1,17 @@
+<div class="landing-block">
+  <!--  <span>{{ motDeBienvenue }}</span> String Interpolation -->
+    <!-- ngForm ci-dessous est une directive d'angular de la balise form, pour créer une référence locale () emise par angular (ngForm) -->
+  <!-- <form #emailForm="ngForm" (ngSubmit)="onSubmitForm(emailForm)">  Est une autre manière d'écrire (click)="onSubmitForm()" dans le bouton de type submit ci-dessous 
+    <label for="emailInput">Inscrivez-vous pour recevoir notre newsletter</label>
+    <input type="email" id="emailInput"  [(ngModel)]="userEmail" name="userEmail">  Two-way binding with [()] 
+    <input type="password" [(ngModel)]="userPassword" name="userPass">
+    <button type="submit">OK!</button>
+  </form> -->
+  <img [src]="imageLandingPage" alt="Snapface logo"> <!-- Property binding with []-->
+  <div class="landing-links">
+    <button (click)="onContinue()">Continuer vers SnapFace</button>  <!-- EventBinding with () -->
+  </div>
+</div>
+
+
+
