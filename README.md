@@ -5,6 +5,7 @@ Bienvenue sur SnapFace, une application Angular connectée à un backend pour af
 ⚙️ Installation et exécution
 
 🖥️ Backend
+
 Accède au dossier du backend
 Installe les dépendances : npm install
 Lance le serveur : npm run start
@@ -12,6 +13,7 @@ Lance le serveur : npm run start
 ✅ Assure-toi que le backend est bien démarré avant de lancer le front-end.
 
 🌐 Frontend (SnapFace - Angular App)
+
 Accède au dossier du projet Angular
 Lance le serveur de développement : ng serve
 
