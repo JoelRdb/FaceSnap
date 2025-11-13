@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Porsche 911 GT3 R",
       "description": "Pole position et record du tour en GT3 Pro-Am ! Un pilotage agressif mais propre.",
-      "imageUrl": "https://images.unsplash.com/photo-1612368689004-489c86ad9a44?auto=format&fit=crop&w=1280&q=80",
+      "imageUrl": "https://www.racecar-engineering.com/wp-content/uploads/2023/03/img_9-scaled-e1679253905333.jpg",
       "createdAt": "Mon Dec 13 2021 14:51:42 GMT+0100 (Central European Standard Time)",
       "snaps": 106,
       "location": "Circuit de Spa-Francorchamps"
@@ -13,7 +13,7 @@
       "id": 2,
       "title": "Aston Martin Vantage GT4",
       "description": "Journée d'essais pour la BoP (Balance of Performance). La voiture est très stable en courbes rapides.",
-      "imageUrl": "https://images.unsplash.com/photo-1597050825124-cf1bce3c6a21?auto=format&fit=crop&w=1280&q=80",
+      "imageUrl": "https://media.astonmartin.com/wp-content/uploads/2024/10/7ec75ffee805ca2001aff06c8f12c379-l.jpg.webp",
       "createdAt": "Mon Dec 13 2021 14:51:42 GMT+0100 (Central European Standard Time)",
       "snaps": 8,
       "location": "Nürburgring Nordschleife"
@@ -22,7 +22,7 @@
       "id": 3,
       "title": "Pit Stop Parfait",
       "description": "Changement de pneus et ravitaillement en 25 secondes. Travail d'équipe impeccable !",
-      "imageUrl": "https://images.unsplash.com/photo-1576706739004-7185af044422?auto=format&fit=crop&w=1280&q=80",
+      "imageUrl": "https://www.f1-fansite.com/wp-content/uploads/2019/04/AP-1Z1EZANX11W11_hires_jpeg_24bit_rgb.jpg",
       "createdAt": "Mon Dec 13 2021 14:51:42 GMT+0100 (Central European Standard Time)",
       "snaps": 157
     },
@@ -30,7 +30,7 @@
       "id": 4,
       "title": "Mercedes-AMG GT3 EVO",
       "description": "Victoire lors de la course d'endurance de 6 heures. La fiabilité a été notre atout principal.",
-      "imageUrl": "https://images.unsplash.com/photo-1610895475531-021d9270b2e9?auto=format&fit=crop&w=1280&q=80",
+      "imageUrl": "https://img2.51gt3.com/rac/car/202503/9f9249437a764a3c90038d80c8cd0326.JPG?x-oss-process=style/_nmediumnowm",
       "createdAt": "Mon Dec 13 2021 14:51:42 GMT+0100 (Central European Standard Time)",
       "snaps": 89,
       "location": "Circuit de Monza"
@@ -39,7 +39,7 @@
       "id": 5,
       "title": "McLaren 570S GT4",
       "description": "Séance de qualification sous la pluie. La traction était surprenante dans ces conditions difficiles.",
-      "imageUrl": "https://images.unsplash.com/photo-1593688470436-d0eac6e689a5?auto=format&fit=crop&w=1280&q=80",
+      "imageUrl": "https://mclaren.scene7.com/is/image/mclaren/Pure%20GT4%20R1%20Spa-9164%202_hero:crop-16x9?wid=1920&hei=1080",
       "createdAt": "Mon Dec 13 2021 14:51:42 GMT+0100 (Central European Standard Time)",
       "snaps": 31,
       "location": "Silverstone (Grande-Bretagne)"
@@ -48,7 +48,7 @@
       "id": 6,
       "title": "Drapeau à Damier",
       "description": "Passage de la ligne d'arrivée en tête ! Une course incroyablement disputée jusqu'au dernier virage.",
-      "imageUrl": "https://images.unsplash.com/photo-1571127237028-99d1f875bc28?auto=format&fit=crop&w=1280&q=80",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2xNIKPTR0sKr93qyu_RjAPDYLSAx_e6RjcQ&s",
       "createdAt": "Mon Dec 13 2021 19:51:42 GMT+0100 (Central European Standard Time)",
       "snaps": 103
     },
@@ -56,10 +56,19 @@
       "id": 7,
       "title": "Audi R8 LMS GT3",
       "description": "L'aérodynamisme revu et corrigé pour améliorer la vitesse de pointe sur la ligne droite.",
-      "imageUrl": "https://images.unsplash.com/photo-1589501311189-e7b1b6968c3b?auto=format&fit=crop&w=1280&q=80",
+      "imageUrl": "https://endurance24.fr/wp-content/uploads/2022/05/A222928_large.webp",
       "location": "Circuit des 24 Heures du Mans",
       "snaps": 2,
       "createdAt": "2025-11-12T14:31:01.343Z"
+    },
+    {
+      "title": "BMW GT3 M4",
+      "description": "Une Porsche 911 GT3 RS — alliance parfaite entre puissance, élégance et sportivité.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0mRRSCRYvXVD0B5uf1h9GhMIVf1KwQIV0nQ&s",
+      "location": "Circuit de Spa-Francorchamps (Belgique)",
+      "snaps": 0,
+      "createdDate": "2025-11-13T13:48:04.866Z",
+      "id": 8
     }
   ]
 }
